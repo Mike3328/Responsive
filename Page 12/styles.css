@@ -97,6 +97,21 @@ html{
     right: 440px;
 }
 
+body::-webkit-scrollbar {
+    width: 8px;            
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent
+}
+  
+body::-webkit-scrollbar-thumb {
+    position: fixed;
+    background-color: rgb(62, 62, 63); 
+    border-radius: 20px;  
+    border: 10px solid transparent;
+}
+
 .performance{
     position: fixed;
     right: 470px;
