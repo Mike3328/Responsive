@@ -1,0 +1,121 @@
+html{
+    background-image:url("../Src/Home2.png");
+}
+
+.new-project{
+    width: 90vw;
+    height: 900px;
+    background-color: white;
+    margin: 50px auto;
+}
+
+h1{
+    text-align: center;
+}
+
+img:nth-of-type(1){
+    margin-left: 1200px;
+    margin-top: 10px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.new-project div:nth-of-type(1){
+    width: 100px;
+    height: 2px;
+    background-color: rgb(228, 84, 168);
+    margin: auto;
+}
+
+.urban{
+    position: absolute;
+    font-weight: bold;
+    top: 200px;
+    left: 130px;
+}
+
+.question{
+    position: absolute;
+    width: 20px;
+    top: 217px;
+    left: 100px;
+}
+
+.information{
+    width: 950px;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+}
+
+.important{
+    color: rgb(163, 47, 67);
+}
+
+.drag{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    width: 450px;
+    height: 200px;
+    text-align: center;
+    border: 2px dashed;
+}
+
+.cloud{
+    position: absolute;
+    width: 200px;
+    margin-left: 370px;
+    margin-top: 110px;
+}
+
+.upload{
+    position: relative;
+    margin-left: 450px;
+    margin-top: 200px;
+}
+
+.up{
+    font-weight: bold;
+    margin-left: 370px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.choose{
+    position: absolute;
+    width: 450px;
+    height: 200px;
+    text-align: center;
+    border: 2px dashed;
+    margin-left: 720px;
+    top: 300px;
+}
+
+button{
+    border-color: rgb(172, 105, 116);
+    cursor: pointer;
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+}
+
+button:hover{
+    background-color: rgb(172, 105, 116);
+    color: white;
+    border: none;
+    transition-duration: 0.5s;
+}
+
+.choose p:nth-of-type(3){
+    color: rgb(228, 84, 168);
+    cursor: pointer;
+}
+
+.choose div{
+    position: absolute;
+    width: 300px;
+    height: 2px;
+    background-color: rgb(228, 84, 168);
+    left: 175px;
+    bottom: 27px;
+}
