@@ -12,7 +12,7 @@
 <body>
     <div class="capa"></div>
     <div style="font-family: 'Nunito', sans-serif;" class="new-project">
-        <img src="../Src/cancel.png" alt="Cancel">
+        <img src="../Src/cancel.png" alt="Cancel" class="cancel">
         <h1>New Project</h1>
         <div></div>
         <img src="../Src/pink-question.png" alt="Question" class="question">
@@ -29,6 +29,48 @@
             <p>Supported type file: geojson</p>
             <p>Download Example File</p>
             <div></div>
+        </div>
+        <table>
+            <tr>
+                <th class="name">Name</th>
+                <th class="categorie">Categorie</th>
+                <th class="description">Description</th>
+                <th class="download">Download</th>
+                <th class="edit">Edit</th>
+                <th class="delete">Delete</th>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="__Add name" value="Urban footprint from 2024"></td>
+                <td class="type">uf_2024.geojson</td>
+                <td><input type="text" placeholder="__Add description" value="Urban footprint retrieved from LANDSAT."></td>
+                <td class="download"><img src="../Src/download.png" alt="Download"></td>
+                <td class="edit"><img src="../Src/edit.png" alt="Edit"></td>
+                <td class="delete"><img src="../Src/delete.png" alt="Delete"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="__Add name" value="Urban footprint as described in the Master Plan 2050"></td>
+                <td class="type">up_plan_2050.geojson</td>
+                <td><input type="text" placeholder="__Add description" value="Urban footprint retrieved from the Municipal Master Plan, 2025-2050."></td>
+                <td class="download"><img src="../Src/download.png" alt="Download"></td>
+                <td class="edit"><img src="../Src/edit.png" alt="Edit"></td>
+                <td class="delete"><img src="../Src/delete.png" alt="Delete"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="__Add name"></td>
+                <td class="type">up_vision_2050.geojson</td>
+                <td><input type="text" placeholder="__Add description"></td>
+                <td class="download"><img src="../Src/download.png" alt="Download"></td>
+                <td class="edit"><img src="../Src/edit.png" alt="Edit"></td>
+                <td class="delete"><img src="../Src/delete.png" alt="Delete"></td>
+            </tr>
+        </table>
+        <div class="buttons1">
+            <input type="button" value="<<Go Back" style="margin-right: 20px">
+            <input type="button" value="Next>>">
+        </div>
+        <div class="buttons2">
+            <input type="button" value="Don't save changes" style="margin-right: 20px">
+            <input type="button" value="Save Changes">
         </div>
     </div>
 </body>
